@@ -1,0 +1,34 @@
+{
+  "name": "simple-express-api",
+  "version": "1.0.0",
+  "description": "Simple Express API with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve",
+    "build": "npm run lint && npm run compile",
+    "compile": "tsc",
+    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
+    "serve": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flandrade/simple-express-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flandrade/simple-express-api/issues"
+  },
+  "homepage": "https://github.com/flandrade/simple-express-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "eslint": "^6.5.0",
+    "typescript": "^3.6.3"
+  }
+}
