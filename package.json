@@ -2,7 +2,12 @@
   "name": "simple-express-api",
   "version": "1.0.0",
   "description": "Simple Express API with TypeScript",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flandrade/simple-express-api.git"
+  },
+  "author": "Fernanda Andrade",
+  "license": "MIT",
   "scripts": {
     "start": "npm run serve",
     "build": "npm run lint && npm run compile",
@@ -11,16 +16,6 @@
     "serve": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/flandrade/simple-express-api.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/flandrade/simple-express-api/issues"
-  },
-  "homepage": "https://github.com/flandrade/simple-express-api#readme",
   "dependencies": {
     "express": "^4.17.1"
   },
